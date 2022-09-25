@@ -1,0 +1,78 @@
+.header {
+    width: 100%;
+}
+.filters {
+    height: 100px;
+    border: 1px solid green;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+#new_spending {
+    margin-right: 30px;
+}
+body {
+    /*background: gray;*/
+}
+.card {
+    background: #809456;
+    margin-bottom: 100px;
+    width: 250px;
+}
+.card-body {
+    height: 300px;
+}
+#card1 {
+    background: rgba(112, 118, 170, 0.93);
+}
+footer {
+    height: 200px;
+    border: 1px solid green;
+}
+.modal-body {
+    margin: auto 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-body-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.my-input-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+input {
+    margin-left: 5px;
+}
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    background: #6c757d;
+    border: none;
+}
+.card-text {
+    height: 180px;
+    overflow: auto;
+    padding-right: 5px;
+    margin-bottom: 26px;
+}
+.card-text::-webkit-scrollbar {
+    background: #757575;
+    width: 10px;
+    border-radius: 5px;
+}
+.card-text::-webkit-scrollbar-thumb {
+    background: rgba(94, 99, 144, 0.46);
+    border-radius: 5px;
+}
+
